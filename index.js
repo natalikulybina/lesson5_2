@@ -1,4 +1,4 @@
-function getName () {
+function checkLogin () {
   const email = prompt('Enter your e-mail');
   const checkEmail = email.indexOf('admin@test.io');
 
@@ -18,5 +18,5 @@ function getName () {
   }
 }
 
-getName ();
+checkLogin ();
 
